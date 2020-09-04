@@ -1,0 +1,5 @@
+---
+AIMODEL_NAME: "ResNet101"
+AIMODEL_VERSION: 1.0
+MODEL_STATE_FILE: "resnet101-5d3b4d8f.pth"
+MODEL_CLASSES_FILE: "imagenet_classes.txt"

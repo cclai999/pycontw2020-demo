@@ -1,0 +1,6 @@
+Flask==1.1.2
+torch==1.6.0
+torchvision==0.7.0
+minio==6.0.0
+PyYAML==5.3.1
+
