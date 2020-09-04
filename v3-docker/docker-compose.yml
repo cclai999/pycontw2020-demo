@@ -1,0 +1,14 @@
+# docker-compose up
+version: '3.7'
+
+services:
+  aimodel:
+    image: aimodel:pycontw2020
+    build:
+      context: .
+    ports:
+      - "15000:5000"
+# 若想新增新的偵測類型, 需要依照這個 service 複製一份, port no. 要不一樣多加一個
+#      - "15001:5000"
+    environment:
+      - TZ=Asia/Taipei
